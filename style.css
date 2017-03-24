@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0 0 30px;
+  padding-top: 30px;
+  width: 100%;
+  background-color: #CCCCCC;
+  font-family: 'Baloo Bhaina', cursive, sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+#titulo {
+  margin: 0;
+}
+
+.images ul {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.portfolio ul {
+  margin-left:-15px;
+  margin-right:-15px
+}
+.portfolio ul:before,.portfolio ul:after {
+  content:" ";
+  display:table
+}
+.portfolio ul:after {
+  clear:both
+} 
+.portfolio ul:before,.portfolio ul:after {
+  content:" ";
+  display:table
+}
+.portfolio ul:after {
+  clear:both
+}
+
+.images ul li {
+  overflow: hidden;
+  position: relative;
+  padding: 0px;
+  left: 50%;
+}
+
+.images ul li img {
+  display: table;
+  max-width: 90%;
+  height: auto;
+}
+@media screen and (max-width: 991px) {
+  .images ul {
+    background-color: green;
+  }
+}
